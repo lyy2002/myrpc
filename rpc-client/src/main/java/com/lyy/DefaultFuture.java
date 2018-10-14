@@ -6,6 +6,7 @@ import com.lyy.entity.RpcResponse;
  * @author lyy
  */
 public class DefaultFuture {
+	
 	private RpcResponse rpcResponse;
 	private volatile boolean isSucceed = false;
 	private final Object object = new Object();
